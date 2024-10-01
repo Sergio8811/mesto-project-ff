@@ -2,7 +2,6 @@
 const cardTemplate = document.querySelector('#card-template').content;
 // @todo: DOM узлы
 const cardsContainer = document.querySelector('.places__list');
-const buttonAddCard = document.querySelector('.profile__add-button');
 // @todo: Функция создания карточки
 function createCard(cardItem, deleteCard) {
     const cardElement = cardTemplate.querySelector('.places__item').cloneNode(true);
